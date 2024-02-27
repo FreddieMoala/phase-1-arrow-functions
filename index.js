@@ -22,16 +22,26 @@
 // console.log(squares);
 // console.log(nums);
 
-const divide = function(pram1, pram2) {
-    return pram1 / pram2
+// const divide = function(pram1, pram2) {
+//     return pram1 / pram2
+// }
+// console.log(divide(2000, 100));
+
+// const square = (m) => {
+//     return m * m;
+// };
+
+// const add = (pram3, pram4) => {
+//     return pram3 + pram4;
+
+// };
+
+const divide = function(a, b) {
+    return a/b
 }
-console.log(divide(2000, 100));
 
-const square = (m) => {
-    return m * m;
-};
+const square = m => m * m;
 
-const add = (pram3, pram4) => {
-    return pram3 + pram4;
-
-};
+const add = (pram1, pram2) => {
+    return pram1 + pram2;
+}
